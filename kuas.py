@@ -1,7 +1,7 @@
 #! /usr/bin/python3
 
-"""
-# Here for person A
+
+ Here for person A
 
 import requests
 from lxml import etree
@@ -21,7 +21,7 @@ def getlist():
 		News.append( [ t.text, t.attrib[ 'href' ] ] )
 
 	return News
-"""
+
 
 """
 # Here for person B
